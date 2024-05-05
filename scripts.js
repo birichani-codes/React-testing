@@ -7,14 +7,14 @@ const googleDb=[
 'myfavouritecats.com'
 ];
 
-const googleSearch=(searchInput)=>{
-const matches= googleDb.filter(website =>{
+const googleSearch=(searchInput,db)=>{
+const matches= db.filter(website =>{
 return website.includes(searchInput);
 })
 
 return matches.length > 4? matches.slice(0,4) :matches;
 }
 
-console.log (googleSearch('soup'));
+//console.log (googleSearch('soup'));
 
 module.exports = googleSearch;

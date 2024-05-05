@@ -6,13 +6,13 @@
   "repository": "https://github.com/birichani-codes/React-testing.git",
   "author": "birichani_codes",
   "license": "MIT",
-  "scripts": {
-    "start": "node scripts.js"
-  },
   "devDependencies": {
     "jest": "^29.7.0"
   },
   "scripts": {
-    "test": "jest --watch *.js"
+    "start": "node scripts.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   }
+
 }
