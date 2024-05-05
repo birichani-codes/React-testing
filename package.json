@@ -2,7 +2,8 @@
   "name": "Jest-initial-test",
   "version": "1.0.0",
   "description": "react testing with jest",
-  "main": "scripts.js",
+  "main": "script2.js",
+  "type": "module",
   "repository": "https://github.com/birichani-codes/React-testing.git",
   "author": "birichani_codes",
   "license": "MIT",
@@ -10,9 +11,11 @@
     "jest": "^29.7.0"
   },
   "scripts": {
-    "start": "node scripts.js",
+    "start": "node script2.js",
     "test": "jest",
     "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
-
 }
